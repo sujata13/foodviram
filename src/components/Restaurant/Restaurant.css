@@ -1,0 +1,54 @@
+.restimg{
+    height: 350px;
+}
+
+.restcenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bottom{
+    position:relative;                  
+    bottom:2px;                          
+    left:0;
+}
+
+.threebox {
+    float: left;
+    width: 33.33%; /* three boxes (use 25% for four, and 50% for two, etc) */
+    padding: 5px; /* if you want space between the images */
+}
+.twobox {
+    float: left;
+    width: 50%; /* three boxes (use 25% for four, and 50% for two, etc) */
+    padding: 5px; /* if you want space between the images */
+} 
+.onebox {
+    float: left;
+    width: 100%; /* three boxes (use 25% for four, and 50% for two, etc) */
+    padding: 5px; /* if you want space between the images */
+} 
+.largethreebox{
+    float: left;
+    width: 40%; /* three boxes (use 25% for four, and 50% for two, etc) */
+    padding: 5px; /* if you want space between the images */
+}
+.smallthreebox{
+    float: right;
+    width: 20%; /* three boxes (use 25% for four, and 50% for two, etc) */
+    padding: 5px; /* if you want space between the images */
+}
+
+@media screen and (min-width: 30em) {
+    .mw6-ns {
+        max-width: 38rem;
+    }
+}
+
+@media (min-width:768px) {
+    .col-md-4 {
+      -ms-flex: 0 0 33.33333%;
+      flex: 0 0 33.33333%;
+      max-width: 33.33333%;
+    }
+}  

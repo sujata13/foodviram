@@ -1,0 +1,7 @@
+.backimg{
+    background-image: url("background.png") ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;    
+}
